@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posts</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="post-wraper" id="post-block"> </div>
+    <div class="overlay" id="overlay">
+        <div id="content"></div>
+        <div id="close"> X </div>
+    </div>
+    <div class="add-post" id="add">+</div>
+    <div class="overlay-add" id="postoverlay">
+        <form action="" class="form" id="form">
+            <div>
+                <label for="title" class="frame"> Title</label>
+                <input type="text" id="title" class="frame">
+            </div>
+            <div>
+                <label for="descr"> Descreption</label>
+                <textarea name="Descreption" id="descr" class="descr" ></textarea>
+            </div>
+            <button> პოსტის დამატება</button>
+        </form>
+        <div id="newpost"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

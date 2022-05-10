@@ -1,0 +1,107 @@
+.post-wraper {
+    display: flex;
+    flex-wrap: wrap;
+}
+.posts{
+    background-color: #bc744e;    ;
+    margin-bottom: 20px;
+    padding: 15px;
+    max-width: 400px;
+    width: 100%;
+    height: 200px;
+    margin-right: 10px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.overlay {
+    position: fixed;
+    top: 130px;
+    left: 300px;
+    max-width: 700px;
+    width: 100%;
+    height: 400px;
+    background-color: #595d44;
+    opacity: 80%;
+    display: none;
+    color: #531d13;
+    text-align: center;
+    font-size: 30px;    
+    font-weight: bolder;
+}
+
+.overlay.active {
+    display: block;
+}
+
+#close {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    font-size: 30px;
+    color: #531d13;
+    cursor: pointer;
+}
+
+.deleteButton {
+    height: 25px;
+    width: 110px;
+    color:  #e1d7d5 ;
+    background-color:#595d44;
+    border-style: none;
+    border-radius: 10px;
+    margin-top: 16px;
+}
+
+.add-post{
+    width: 50px;
+    height: 50px;
+    background-color: #531d13;
+    border-radius: 50%;
+    border: none;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    font-size: 30px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    color: #e1d7d5;
+}
+
+.overlay-add {
+    position: fixed;
+    top: 130px;
+    left: 300px;
+    max-width: 700px;
+    width: 100%;
+    height: 400px;
+    background-color: #ab8060;
+    opacity: 70%;
+    display: none;
+    color: floralwhite;
+    text-align: center;
+    font-size: 30px; 
+    padding-top: 30px;
+}
+
+.overlay-add.active-add {
+    display: block;
+}
+
+.deletediv {
+    display: none;
+}
+
+.data-id {
+    align-items: center;
+}
+
+h2,h3 {
+    color: #531d13;
+    font-size: 20px;
+}
+
+.frame:focus {
+outline: none;
+}
